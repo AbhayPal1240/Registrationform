@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: aliceblue;
+}
+
+.From-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 65px;
+  /* border: 1px solid black; */
+  /* background-color: aqua; */
+}
+.form{
+  /* border: 1px solid black; */
+}
+.Heading-section{
+ padding: 34px 0 ;
+}
+
+.label-input{
+  font-size: 24px;
+  margin: 15px 0;
+  box-shadow: 14px 10px 55px  rgba(0, 0, 0, 0.3) ;
+}
+
+.label-input label{
+  display: none;
+}
+
+.label-input input{
+  padding: 15px;
+  width: 25rem;
+}
+.label-input input::placeholder{
+  font-size: 20px;
+  color: black;
+}
+
+.label-input .button{
+  background-color: #73b0b0;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 14px 10px 55px  rgba(0, 0, 0, 0.3) ;
+}
